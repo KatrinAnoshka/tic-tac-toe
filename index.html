@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	
+	<div class="blackboard">
+	<h1>Tic Tac Toe</h1>
+	
+<!-- window with selected signs	 -->
+	<div class="prompt">
+		<div class="welcome">Welcome!</div>
+		<p>Choose your symbol</p>
+		<button id="x">X</button>
+		<button id="o">O</button>
+	</div>
+	
+<!-- Main board of game	 -->
+	<div class="game">
+		<h3 class="result">LET'S GO</h3>
+		<table style="margin: 0 auto;">
+			<tbody>
+				<tr>
+					<td class="cell-right top left diagL cell-bottom cell1"></td>
+					<td class="cell-right vert top cell-bottom cell2"></td>
+					<td class="cell-bottom right diagR top cell3"></td>
+				</tr>
+				<tr>
+					<td class="cell-right mid left cell-bottom cell4"></td>
+					<td class="cell-right mid vert diagR diagL cell-bottom cell5"></td>
+					<td class="cell-bottom mid right cell6"></td>
+				</tr>
+				<tr>
+					<td class="cell-right bot left diagR cell7"></td>
+					<td class="cell-right bot vert cell8"></td>
+					<td class="diagL right bot cell9"></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
